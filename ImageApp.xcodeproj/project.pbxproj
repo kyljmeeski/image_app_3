@@ -6,36 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CEDE748F2E2E9BCE0009CAD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDE74882E2E9BCE0009CAD4 /* Assets.xcassets */; };
+		CEDE74912E2E9BCE0009CAD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDE748B2E2E9BCE0009CAD4 /* LaunchScreen.storyboard */; };
+		CEDE74922E2E9BCE0009CAD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE74872E2E9BCE0009CAD4 /* AppDelegate.swift */; };
+		CEDE74932E2E9BCE0009CAD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE748C2E2E9BCE0009CAD4 /* SceneDelegate.swift */; };
+		CEDE74962E2E9BDC0009CAD4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE74952E2E9BDC0009CAD4 /* StartViewController.swift */; };
+		CEDE74982E2E9DF40009CAD4 /* ImageEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE74972E2E9DF40009CAD4 /* ImageEditorViewController.swift */; };
+		CEDE749B2E2EAD010009CAD4 /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = CEDE749A2E2EAD010009CAD4 /* CropViewController */; };
+		CEDE749D2E2EAD010009CAD4 /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = CEDE749C2E2EAD010009CAD4 /* TOCropViewController */; };
+		CEDE749F2E2EAD140009CAD4 /* ImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE749E2E2EAD140009CAD4 /* ImageCropper.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CEDE746F2E2E9B9E0009CAD4 /* ImageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDE74872E2E9BCE0009CAD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDE74882E2E9BCE0009CAD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDE74892E2E9BCE0009CAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE748A2E2E9BCE0009CAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDE748C2E2E9BCE0009CAD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEDE74952E2E9BDC0009CAD4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CEDE74972E2E9DF40009CAD4 /* ImageEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorViewController.swift; sourceTree = "<group>"; };
+		CEDE749E2E2EAD140009CAD4 /* ImageCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CEDE74812E2E9B9F0009CAD4 /* Exceptions for "ImageApp" folder in "ImageApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CEDE746E2E2E9B9E0009CAD4 /* ImageApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CEDE74712E2E9B9E0009CAD4 /* ImageApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CEDE74812E2E9B9F0009CAD4 /* Exceptions for "ImageApp" folder in "ImageApp" target */,
-			);
-			path = ImageApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CEDE746C2E2E9B9E0009CAD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDE749D2E2EAD010009CAD4 /* TOCropViewController in Frameworks */,
+				CEDE749B2E2EAD010009CAD4 /* CropViewController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +46,7 @@
 		CEDE74662E2E9B9E0009CAD4 = {
 			isa = PBXGroup;
 			children = (
-				CEDE74712E2E9B9E0009CAD4 /* ImageApp */,
+				CEDE748E2E2E9BCE0009CAD4 /* ImageApp */,
 				CEDE74702E2E9B9E0009CAD4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +57,21 @@
 				CEDE746F2E2E9B9E0009CAD4 /* ImageApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDE748E2E2E9BCE0009CAD4 /* ImageApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE74872E2E9BCE0009CAD4 /* AppDelegate.swift */,
+				CEDE74882E2E9BCE0009CAD4 /* Assets.xcassets */,
+				CEDE74892E2E9BCE0009CAD4 /* Info.plist */,
+				CEDE748B2E2E9BCE0009CAD4 /* LaunchScreen.storyboard */,
+				CEDE748C2E2E9BCE0009CAD4 /* SceneDelegate.swift */,
+				CEDE74952E2E9BDC0009CAD4 /* StartViewController.swift */,
+				CEDE74972E2E9DF40009CAD4 /* ImageEditorViewController.swift */,
+				CEDE749E2E2EAD140009CAD4 /* ImageCropper.swift */,
+			);
+			path = ImageApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +89,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				CEDE74712E2E9B9E0009CAD4 /* ImageApp */,
-			);
 			name = ImageApp;
 			packageProductDependencies = (
+				CEDE749A2E2EAD010009CAD4 /* CropViewController */,
+				CEDE749C2E2EAD010009CAD4 /* TOCropViewController */,
 			);
 			productName = ImageApp;
 			productReference = CEDE746F2E2E9B9E0009CAD4 /* ImageApp.app */;
@@ -107,6 +122,9 @@
 			);
 			mainGroup = CEDE74662E2E9B9E0009CAD4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CEDE74992E2EAD010009CAD4 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CEDE74702E2E9B9E0009CAD4 /* Products */;
 			projectDirPath = "";
@@ -122,6 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDE748F2E2E9BCE0009CAD4 /* Assets.xcassets in Resources */,
+				CEDE74912E2E9BCE0009CAD4 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +152,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDE749F2E2EAD140009CAD4 /* ImageCropper.swift in Sources */,
+				CEDE74982E2E9DF40009CAD4 /* ImageEditorViewController.swift in Sources */,
+				CEDE74922E2E9BCE0009CAD4 /* AppDelegate.swift in Sources */,
+				CEDE74962E2E9BDC0009CAD4 /* StartViewController.swift in Sources */,
+				CEDE74932E2E9BCE0009CAD4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDE748B2E2E9BCE0009CAD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDE748A2E2E9BCE0009CAD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CEDE74832E2E9B9F0009CAD4 /* Debug */ = {
@@ -150,7 +186,6 @@
 				INFOPLIST_FILE = ImageApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +213,6 @@
 				INFOPLIST_FILE = ImageApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -337,6 +371,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEDE74992E2EAD010009CAD4 /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEDE749A2E2EAD010009CAD4 /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEDE74992E2EAD010009CAD4 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		CEDE749C2E2EAD010009CAD4 /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEDE74992E2EAD010009CAD4 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEDE74672E2E9B9E0009CAD4 /* Project object */;
 }
